@@ -3,11 +3,19 @@
     flex-direction: column;
 
 }
+
 ul{
     padding: 0;
 }
 li{
     list-style: none;
-    background-color: lightgrey;
+    margin: .5em 0;
+}
 
+li a {
+    display: inline-block;
+    background: lightgrey;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
 }
