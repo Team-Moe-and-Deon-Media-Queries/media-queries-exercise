@@ -73,7 +73,11 @@ a img{
 @media screen and (min-width: 700px){
 
  .hidden-on-desktop {
+     padding:0;
+     margin:0;
+     order: 1;
      visibility: hidden;
+
  }
 
     .nav-links{
@@ -84,7 +88,7 @@ a img{
 
     nav{
 
-        background: lightgreen;
+        background: none;
 
     }
 
@@ -92,7 +96,7 @@ a img{
 
         text-align: left;
         margin-right: auto;
-        background: rebeccapurple;
+        background: none;
 
 
     }
@@ -106,6 +110,7 @@ a img{
     .main{
         width: 70%;
         padding-right: 1em;
+        margin-right: 3em;
 
     }
 
@@ -119,7 +124,12 @@ a img{
         display: flex;
 
     }
+    li{
+        background: none;
+    }
 
-
+.header-img{
+    width: 100%;
+}
 }
 
