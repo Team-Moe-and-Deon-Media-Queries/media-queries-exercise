@@ -1,12 +1,42 @@
+main{
+    font-family: sans-serif;
+}
+
+
+
+.alert-info{
+    background-color: paleturquoise;
+    padding: 1em 0;
+    text-align: center;
+
+}
+
+.alert-info a{
+    color:black;
+}
+
+
+h1{
+    text-align: center;
+    font-size:  xxx-large;
+
+}
+
+
+
 .nav-links{
     display: flex;
     flex-direction: column;
+
+
 
 }
 
 ul{
     padding: 0;
 }
+
+
 li{
     list-style: none;
     margin: .5em 0;
@@ -19,3 +49,4 @@ li a {
     width: 100%;
     text-align: center;
 }
+
