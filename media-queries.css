@@ -58,6 +58,23 @@ img{
 }
 
 footer{
+    display: flex;
     margin-top: 7em;
+    align-items: baseline;
+}
+#social-media-links {
+    margin-left: auto;
+}
+a img{
+    height: 2em;
+    width: 2em;
+}
+
+@media screen and (min-width: 700px){
+
+ .hidden-on-desktop{
+     visibility: hidden;
+ }
+
 }
 
