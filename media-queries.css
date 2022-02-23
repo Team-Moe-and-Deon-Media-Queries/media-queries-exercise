@@ -72,9 +72,54 @@ a img{
 
 @media screen and (min-width: 700px){
 
- .hidden-on-desktop{
+ .hidden-on-desktop {
      visibility: hidden;
  }
+
+    .nav-links{
+        flex-direction: row;
+        margin-right: auto;
+
+    }
+
+    nav{
+
+        background: lightgreen;
+
+    }
+
+    h1{
+
+        text-align: left;
+        margin-right: auto;
+        background: rebeccapurple;
+
+
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .main{
+        width: 70%;
+        padding-right: 1em;
+
+    }
+
+    .sub-section{
+        width: 30%;
+
+
+    }
+
+    #query{
+        display: flex;
+
+    }
+
 
 }
 
