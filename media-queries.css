@@ -44,11 +44,20 @@ li{
 li a {
     display: inline-block;
     padding: 1em;
-    margin-right: .5em;
     width: 100%;
     text-align: center;
+    box-sizing: border-box;
 }
 img{
     width: 100%;
+}
+
+.sub-section h2{
+    font-size: larger;
+    font-style: italic;
+}
+
+footer{
+    margin-top: 7em;
 }
 
